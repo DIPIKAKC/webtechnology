@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Unit</title>
+    <style>
+        :root{
+            --back:grey;
+        }
+        *{
+            margin: 0%;
+            padding:0%;
+        }
+        body,html{
+            width: 100%;
+            height:100%;
+            background-color: var(--back);
+        }
+        #parent{
+            width:50%;
+            height: 80%;
+            background-color: hsl(0,80,77);
+        }
+       
+        div{
+            width: 30%;
+            height:50%;
+            background-color:plum;
+            font-size: 2rem;
+        }
+        /* % le parent div lai follow garcha */
+        /* vh,ve le aafnai para le value lincha */
+        /* em le root lai ignore garha */
+        /* rem le parent lai ignore garcha */
+        /* colorhunt.co for colors */
+    </style>
+</head>
+<body>
+    <h1>px,%,em,rem,vh,vw</h1>
+    <div>
+        <div id="parent">
+            
+            </div>
+    </div>
+</body>
+</html>

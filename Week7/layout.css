@@ -1,0 +1,107 @@
+
+/* 
+        .parent{
+            width: 100%;
+        }
+        img{
+            width: 500px;
+            height:auto;
+            float: right;
+        }
+        .daughter{
+            width: 50%;
+            height: auto;
+        }
+        p{
+            color: aquamarine;
+            float: left;
+            /* paragraph float garna parent chaincha=div */
+        /* }
+        .son{
+            width: 50%;
+            height: auto;
+        } 
+     */
+
+    /* responsive design */
+   
+    /* mobile */
+    @media(min-width:320px)and (max-width:480px){
+/* style */
+h1{
+    text-align: center;
+}
+        .parent{
+          width: 100%;
+          background-color: bisque;
+        }
+
+        img{
+            width: 300px;
+            height:auto;
+            display:block;
+            margin: auto;
+            
+        }
+        .daughter{
+           
+        }
+        .son{
+            display: block;
+            margin: auto;
+    }
+ }
+
+
+ /* tablets */
+ @media(min-width:481px)and (max-width:768px){
+    h1{
+        text-align: center;
+    }
+    body{
+        background-color: brown;
+    }
+    .parent{
+        width: 100%;
+      }
+
+      img{
+          width: 480px;
+          height:auto;
+          
+      }
+      .daughter{
+         
+      }
+      .son{
+          display: block;
+          margin: auto;
+  }
+}
+
+
+ /* laptop */
+ @media(min-width:769px)and (max-width:1024px){
+    h1{
+        text-align: center;
+    }
+    body{
+        background-color:blueviolet;
+    }
+    .parent{
+        width: 100%;
+      }
+
+      img{
+          width: 500px;
+          height:auto;
+          
+      }
+      .daughter{
+         
+      }
+      .son{
+          display: block;
+          margin: auto;
+  }
+ }

@@ -1,0 +1,12 @@
+How to optimize html code?
+-use external css files
+-use external js file
+-avoid unnecessary spaces of codes
+-remove unused tags
+
+For Html framework
+-bootstrap
+-angularjs
+-flask
+-django
+-laravel,etc

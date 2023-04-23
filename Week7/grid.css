@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* box-sizing: border-box le overflow huna didaina */
+}
+.grid{
+    width: 90%;
+    border: 2px dotted black;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    /* fr le chai sabai sppace utilize garcha ani overflow huna didaina */
+    grid-template-rows: 250px 250px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+
+}
+
+.box1{
+    background-color: antiquewhite;
+}
+.box2{
+    background-color:aquamarine;
+}
+.box3{
+    background-color:aqua;
+}
+.box4{
+    background-color: rgb(84, 84, 120);
+}
+.box5{
+    background-color:purple;
+}
+.box6{
+    background-color: plum;
+}
+

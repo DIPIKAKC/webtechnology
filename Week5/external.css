@@ -1,0 +1,56 @@
+body{
+    background-color:black,beige;
+}
+*{
+    font-size: 60px;
+}
+h1{
+    /* font-size:30px; */
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+}
+.p1{
+    background-color:black;
+    /* font-size: 20px; */
+    font-style: italic;
+    color: aliceblue;
+    
+}
+.p2{
+    background-color:bisque;
+    /* font-size: 20px; */
+    font-style: italic;
+    color: aliceblue;
+    
+}
+.p3{
+    background-color:blueviolet;
+    /* font-size: 20px; */
+    font-style: italic;
+    color: aliceblue;
+    
+}
+.p4{
+    width:50%;
+    background-color:aqua;
+    /* font-size: 20px; */
+    font-style: italic;
+    color: aliceblue;
+    
+}
+.p4:hover{
+    background-color:aquamarine;
+    color:black;
+}
+a[href]{
+    color: blueviolet;
+
+}
+
+/* css ma '<>' read gardaina */
+/* {} is tag selector */
+/* id selector ko lagi'#', unique tag ko laagi,same page ma link garera navigate garna */
+/* class selector ko lagi '.',different pages */
+/* '*'universal selector */

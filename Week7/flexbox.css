@@ -1,0 +1,32 @@
+.flex{
+width: 90%;
+border: 2px solid #000000;
+display: flex;
+flex-wrap: wrap;
+/* flexwrap-wrap le space leraidincha */
+justify-content:center;
+/* flexdirection-column le flexbox lai column ma lancha */
+gap: 10px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+}
+.box1{
+    background-color: antiquewhite;
+}
+.box2{
+    background-color:aquamarine;
+}
+.box3{
+    background-color:aqua;
+}
+.box4{
+    background-color: rgb(84, 84, 120);
+}
+.box5{
+    background-color:purple;
+}
+.box6{
+    background-color: plum;
+}

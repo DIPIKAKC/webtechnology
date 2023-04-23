@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        h1{
+            background-color: aliceblue;
+            text-transform: uppercase;
+        }
+        h1:hover{
+            font-size: 50px;
+            color:blueviolet;
+        }
+        /* hover for any tags */
+        p{
+            background-color: aqua;
+            line-height: 50px;
+        }
+        a[href]{
+            color:blueviolet;
+        }
+        a:visited{
+            color: brown;
+        }
+        /* visited only for links */
+        input:checked{
+            border: none;
+            outline: 2px solid darkmagenta;
+            /* checked for border of option button */
+        }
+    </style>
+</head>
+<body>
+    <h1> Pseudo Classes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam consequatur natus, temporibus quae distinctio
+         alias recusandae ullam corporis quia numquam eaque reiciendis. Dignissimos minima ex, soluta optio excepturi facere. 
+         yyyyyyyyuiiiiii iiiiiiiioooooooooooooooooooooooooooooooooooooooooooooooookj</p>
+    <a href="index.html"target="index">Link</a>
+    <form>
+        <p>which programming language do you like?</p><br>
+        <input name="origin"type="radio"value="python"checked>
+        <label>Python</label><br>
+        <input name="origin"type="radio"value="java"checked>
+        <label>java</label><br>
+        <input name="origin"type="radio"value="C++"checked>
+        <label>C++</label><br>
+        <button>Submit</button>
+        <!-- checked le chai automatic yeuta option lai select gardincha -->
+    </form>
+
+</body>
+</html>
