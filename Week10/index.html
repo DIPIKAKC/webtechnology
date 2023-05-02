@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        let a="dipika";
+        console.log(a);
+        console.log(typeof a);
+
+//user input//
+        let b=prompt("what's your age?");
+        console.log(b);
+
+//difference betn var and let//
+//let:blocked scope; variable ko thau ma variable ani function ko thau ma function print garcha , var:global scope; duitai ma function print//
+        let c="aayusha";
+        {
+            let c="sneha";
+            console.log(c);
+        }
+        console.log(c);
+
+//objects//
+        const items={
+            name:"Dipika",
+            age:18,
+            address:"tokha"
+        }
+        console.log(items);
+        console.log(items["name"])
+
+        const dictionary={
+            Feral:"wild",	
+            extol:"praise",	
+            furtive:"secrete",	
+            impertinent:"Bold",
+            assault:"attack"
+        }
+        console.log(dictionary);
+        console.log(dictionary["Feral"])
+        console.log(typeof dictionary)
+
+        let hehe="dipika";
+        let age1=12;
+        console.log(hehe+" "+age1);
+
+//conditional//
+        let number=prompt("give me a number")
+        if (number>0){
+            alert("number is positive")
+        }else if(number==0){
+            alert("number is zero")
+        }else{
+            alert("number is negative")
+        }
+        
+
+        let age=prompt("insert age")
+        if (age>0 && age<=12){
+            alert("infant")
+        }else if(age>=13 && age<=19){
+            alert("teenager")
+        }else if(age>=20 && age<=40){
+            alert("adult")
+        }else if(age>40){
+            alert("old")
+        }
+
+//for loop//
+        let sum=0;
+        for (i=0; i<=10; i++){
+            console.log(i);
+            sum+=i;
+        }
+        console.log(sum);
+        
+//function//
+        //sum
+        function sumoftwonum(e,f){
+        let sum=0;
+        sum=e+f;
+        return sum;
+        }
+
+        console.log(sumoftwonum(2,3));
+        // console.log(sumoftwonum);
+
+        //avg
+        let u=parseInt(prompt("first number"));
+        let v=parseInt(prompt("second number"));
+        let w=parseInt(prompt("third number"));
+        function avgofthreenum(){
+        let avg=0;
+        avg=(u+v+w)/3;
+        return avg;
+        }
+        console.log(avgofthreenum());
+    
+    </script>
+</body>
+</html>
